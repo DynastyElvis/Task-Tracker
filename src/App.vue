@@ -6,12 +6,24 @@
 
 <script>
 import Header from './components/Header'
+import Header from './components/Tasks'
 
 export default {
   name: 'App',
   components: {
     Header,
   },
+  data()
+  {
+    return
+    {
+      tasks:[]
+    }
+  },
+  created()
+  {
+    this.tasks = 
+  }
 }
 </script>
 

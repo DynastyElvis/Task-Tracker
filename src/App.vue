@@ -23,6 +23,30 @@ export default {
   created()
   {
     this.tasks = 
+    {
+      id: 1,
+      text: 'Doctors appointment',
+      day: 'march 24th'
+      reminder: true,
+    },
+    {
+      id: 2,
+      text: 'wertykjhgf appointment',
+      day: 'march 24th'
+      reminder: true,
+    },
+    {
+      id: 3,
+      text: 'fghjk appointment',
+      day: 'march 24th'
+      reminder: true,
+    },
+    {
+      id: 4,
+      text: 'wertyui appointment',
+      day: 'march 24th'
+      reminder: true,
+    },
   }
 }
 </script>

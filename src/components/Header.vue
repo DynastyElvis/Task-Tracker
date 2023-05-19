@@ -2,6 +2,8 @@
   <header>
     <h1>{{ title }}</h1>
     <AppButton text="Add Task" />
+    <AppButton text="Update Task" />
+    <AppButton text="Delete Task" />
   </header>
 </template>
 

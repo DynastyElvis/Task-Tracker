@@ -1,31 +1,30 @@
 <template>
-    <header>
-        <h1>{{ title }}</h1>
-        </Button>
-    </header>
-  </template>
-  
-  <script>
-  import Button from './Button'
+  <header>
+    <h1>{{ title }}</h1>
+    <AppButton text="Add Task" />
+  </header>
+</template>
 
-  export default {
-    name: 'AppHeader',
-    props: {
+<script>
+import AppButton from './Button'
+
+export default {
+  name: 'AppHeader',
+  props: {
     title: String,
     showAddTask: Boolean,
   },
   components: {
-    Button,
+    AppButton,
   },
-  }
-  </script>
-  
-  <style scoped>
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  </style>
-  
+}
+</script>
+
+<style scoped>
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+</style>

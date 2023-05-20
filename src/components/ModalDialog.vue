@@ -85,7 +85,7 @@ function clickModal(e: Event) {
           </a>
         </div>
         <small
-          >&copy;  {{ new Date().getFullYear() }} Kipkemoi Elvis</small
+          >&copy; Copyright {{ new Date().getFullYear() }} Kipkemoi Elvis</small
         >
       </div>
     </div>
